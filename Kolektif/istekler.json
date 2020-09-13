@@ -1,0 +1,37 @@
+{
+  "udemy": [
+    "/udemyGorsel?kategori=python",
+    "/udemy?kategori=python",
+    "/udemy/python"
+  ],
+  "hava":[
+    "/havaGorsel?sehir=canakkale",
+    "/hava?sehir=Beylikdüzü",
+    "/hava/pursaklar"
+  ],
+  "eczane": [
+    "/eczaneGorsel?il=canakkale&ilce=merkez",
+    "/eczane?il=hatay&ilce=samandag",
+    "/eczane/mardin/nusaybin"
+  ],
+  "deprem":[
+    "/depremGorsel",
+    "",
+    "/deprem"
+  ],
+  "akaryakit":[
+    "/akaryakitGorsel",
+    "",
+    "/akaryakit"
+  ],
+  "haber": [
+    "/haberGorsel",
+    "",
+    "/haber"
+  ],
+  "bim": [
+    "/bimGorsel",
+    "",
+    "/bim"
+  ]
+}
