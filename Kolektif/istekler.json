@@ -33,5 +33,10 @@
     "/bimGorsel",
     "",
     "/bim"
+  ],
+  "doviz": [
+    "/dovizGorsel",
+    "",
+    "/doviz"
   ]
 }
