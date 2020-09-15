@@ -1,3 +1,9 @@
+import warnings
+from pandas.core.common import SettingWithCopyWarning
+
+warnings.simplefilter(action="ignore", category=SettingWithCopyWarning)
+
+
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd
