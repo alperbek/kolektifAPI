@@ -6,10 +6,11 @@ import json
 
 def nobetciEczane(il, ilce):
     url = f"https://www.eczaneler.gen.tr/nobetci-{il}-{ilce}"
-    kimlik = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36'}
+    kimlik = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.76 Safari/537.36'}
 
-    istek = requests.get(url, kimlik)
-    corba = BeautifulSoup(istek.text, "lxml")
+    istek = requests.get(url, headers=kimlik)
+    # print(istek.headers)
+    corba = BeautifulSoup(istek.content, "lxml")
     
     eczane_adi = []
     eczane_adresi = []
